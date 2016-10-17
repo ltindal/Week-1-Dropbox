@@ -14,6 +14,15 @@
 		3D5DE36C1DAF300A009DC512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D5DE36A1DAF300A009DC512 /* LaunchScreen.storyboard */; };
 		3D5DE3771DAF300A009DC512 /* Week_1_DropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5DE3761DAF300A009DC512 /* Week_1_DropboxTests.swift */; };
 		3D5DE3821DAF300A009DC512 /* Week_1_DropboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5DE3811DAF300A009DC512 /* Week_1_DropboxUITests.swift */; };
+		3D6878AB1DB2E27100E5A651 /* BackToWelcomeSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6878AA1DB2E27100E5A651 /* BackToWelcomeSignUp.swift */; };
+		3D6878AD1DB2E4E400E5A651 /* BackToWelcomeCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6878AC1DB2E4E400E5A651 /* BackToWelcomeCreate.swift */; };
+		3D6878B31DB2F16E00E5A651 /* DismissToS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6878B21DB2F16E00E5A651 /* DismissToS.swift */; };
+		3D6878B51DB2FE6700E5A651 /* skipSignOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6878B41DB2FE6700E5A651 /* skipSignOut.swift */; };
+		3D6878B71DB30A6F00E5A651 /* SettingScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6878B61DB30A6F00E5A651 /* SettingScroll.swift */; };
+		3D6878B91DB30F7C00E5A651 /* skipSignOut2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6878B81DB30F7C00E5A651 /* skipSignOut2.swift */; };
+		3D6878BB1DB3152600E5A651 /* scrollPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6878BA1DB3152600E5A651 /* scrollPhotos.swift */; };
+		3D6878BD1DB477E400E5A651 /* BackToWelcomeSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6878BC1DB477E400E5A651 /* BackToWelcomeSignIn.swift */; };
+		3D6878BF1DB478CF00E5A651 /* CancelTroubleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6878BE1DB478CF00E5A651 /* CancelTroubleSignIn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		3D5DE37D1DAF300A009DC512 /* Week 1-DropboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 1-DropboxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D5DE3811DAF300A009DC512 /* Week_1_DropboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week_1_DropboxUITests.swift; sourceTree = "<group>"; };
 		3D5DE3831DAF300A009DC512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D6878AA1DB2E27100E5A651 /* BackToWelcomeSignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackToWelcomeSignUp.swift; sourceTree = "<group>"; };
+		3D6878AC1DB2E4E400E5A651 /* BackToWelcomeCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackToWelcomeCreate.swift; sourceTree = "<group>"; };
+		3D6878B21DB2F16E00E5A651 /* DismissToS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissToS.swift; sourceTree = "<group>"; };
+		3D6878B41DB2FE6700E5A651 /* skipSignOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = skipSignOut.swift; sourceTree = "<group>"; };
+		3D6878B61DB30A6F00E5A651 /* SettingScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingScroll.swift; sourceTree = "<group>"; };
+		3D6878B81DB30F7C00E5A651 /* skipSignOut2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = skipSignOut2.swift; sourceTree = "<group>"; };
+		3D6878BA1DB3152600E5A651 /* scrollPhotos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scrollPhotos.swift; sourceTree = "<group>"; };
+		3D6878BC1DB477E400E5A651 /* BackToWelcomeSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackToWelcomeSignIn.swift; sourceTree = "<group>"; };
+		3D6878BE1DB478CF00E5A651 /* CancelTroubleSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelTroubleSignIn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,7 @@
 		3D5DE3601DAF300A009DC512 /* Week 1-Dropbox */ = {
 			isa = PBXGroup;
 			children = (
+				3DE0FB1A1DB03FC700F84A55 /* Swift Files */,
 				3D5DE3611DAF300A009DC512 /* AppDelegate.swift */,
 				3D5DE3631DAF300A009DC512 /* ViewController.swift */,
 				3D5DE3651DAF300A009DC512 /* Main.storyboard */,
@@ -123,6 +142,22 @@
 				3D5DE3831DAF300A009DC512 /* Info.plist */,
 			);
 			path = "Week 1-DropboxUITests";
+			sourceTree = "<group>";
+		};
+		3DE0FB1A1DB03FC700F84A55 /* Swift Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D6878AA1DB2E27100E5A651 /* BackToWelcomeSignUp.swift */,
+				3D6878AC1DB2E4E400E5A651 /* BackToWelcomeCreate.swift */,
+				3D6878B21DB2F16E00E5A651 /* DismissToS.swift */,
+				3D6878B41DB2FE6700E5A651 /* skipSignOut.swift */,
+				3D6878B61DB30A6F00E5A651 /* SettingScroll.swift */,
+				3D6878B81DB30F7C00E5A651 /* skipSignOut2.swift */,
+				3D6878BA1DB3152600E5A651 /* scrollPhotos.swift */,
+				3D6878BC1DB477E400E5A651 /* BackToWelcomeSignIn.swift */,
+				3D6878BE1DB478CF00E5A651 /* CancelTroubleSignIn.swift */,
+			);
+			name = "Swift Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,18 +223,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Lauren Tindal";
 				TargetAttributes = {
 					3D5DE35D1DAF300A009DC512 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					3D5DE3711DAF300A009DC512 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 3D5DE35D1DAF300A009DC512;
 					};
 					3D5DE37C1DAF300A009DC512 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 3D5DE35D1DAF300A009DC512;
 					};
 				};
@@ -256,8 +294,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6878BD1DB477E400E5A651 /* BackToWelcomeSignIn.swift in Sources */,
+				3D6878BF1DB478CF00E5A651 /* CancelTroubleSignIn.swift in Sources */,
 				3D5DE3641DAF300A009DC512 /* ViewController.swift in Sources */,
+				3D6878AD1DB2E4E400E5A651 /* BackToWelcomeCreate.swift in Sources */,
+				3D6878B31DB2F16E00E5A651 /* DismissToS.swift in Sources */,
 				3D5DE3621DAF300A009DC512 /* AppDelegate.swift in Sources */,
+				3D6878B51DB2FE6700E5A651 /* skipSignOut.swift in Sources */,
+				3D6878BB1DB3152600E5A651 /* scrollPhotos.swift in Sources */,
+				3D6878B71DB30A6F00E5A651 /* SettingScroll.swift in Sources */,
+				3D6878AB1DB2E27100E5A651 /* BackToWelcomeSignUp.swift in Sources */,
+				3D6878B91DB30F7C00E5A651 /* skipSignOut2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,8 +373,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -371,8 +420,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -391,6 +442,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -403,6 +455,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Week-1-Dropbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -414,6 +467,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Week-1-Dropbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -425,6 +479,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Week-1-DropboxTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week 1-Dropbox.app/Week 1-Dropbox";
 			};
 			name = Debug;
@@ -437,6 +492,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Week-1-DropboxTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week 1-Dropbox.app/Week 1-Dropbox";
 			};
 			name = Release;
@@ -448,6 +504,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Week-1-DropboxUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Week 1-Dropbox";
 			};
 			name = Debug;
@@ -459,6 +516,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "codepath.Week-1-DropboxUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Week 1-Dropbox";
 			};
 			name = Release;
@@ -482,6 +540,7 @@
 				3D5DE3881DAF300A009DC512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D5DE3891DAF300A009DC512 /* Build configuration list for PBXNativeTarget "Week 1-DropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +549,7 @@
 				3D5DE38B1DAF300A009DC512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D5DE38C1DAF300A009DC512 /* Build configuration list for PBXNativeTarget "Week 1-DropboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +558,7 @@
 				3D5DE38E1DAF300A009DC512 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
