@@ -23,6 +23,7 @@
 		3D6878BB1DB3152600E5A651 /* scrollPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6878BA1DB3152600E5A651 /* scrollPhotos.swift */; };
 		3D6878BD1DB477E400E5A651 /* BackToWelcomeSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6878BC1DB477E400E5A651 /* BackToWelcomeSignIn.swift */; };
 		3D6878BF1DB478CF00E5A651 /* CancelTroubleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6878BE1DB478CF00E5A651 /* CancelTroubleSignIn.swift */; };
+		3D6878C11DB4802D00E5A651 /* ViewToS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6878C01DB4802D00E5A651 /* ViewToS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		3D6878BA1DB3152600E5A651 /* scrollPhotos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scrollPhotos.swift; sourceTree = "<group>"; };
 		3D6878BC1DB477E400E5A651 /* BackToWelcomeSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackToWelcomeSignIn.swift; sourceTree = "<group>"; };
 		3D6878BE1DB478CF00E5A651 /* CancelTroubleSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelTroubleSignIn.swift; sourceTree = "<group>"; };
+		3D6878C01DB4802D00E5A651 /* ViewToS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewToS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				3D6878BA1DB3152600E5A651 /* scrollPhotos.swift */,
 				3D6878BC1DB477E400E5A651 /* BackToWelcomeSignIn.swift */,
 				3D6878BE1DB478CF00E5A651 /* CancelTroubleSignIn.swift */,
+				3D6878C01DB4802D00E5A651 /* ViewToS.swift */,
 			);
 			name = "Swift Files";
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				3D6878B51DB2FE6700E5A651 /* skipSignOut.swift in Sources */,
 				3D6878BB1DB3152600E5A651 /* scrollPhotos.swift in Sources */,
 				3D6878B71DB30A6F00E5A651 /* SettingScroll.swift in Sources */,
+				3D6878C11DB4802D00E5A651 /* ViewToS.swift in Sources */,
 				3D6878AB1DB2E27100E5A651 /* BackToWelcomeSignUp.swift in Sources */,
 				3D6878B91DB30F7C00E5A651 /* skipSignOut2.swift in Sources */,
 			);

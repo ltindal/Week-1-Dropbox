@@ -347,11 +347,11 @@
             <objects>
                 <viewController id="DKm-57-C2J" customClass="SettingScroll" customModule="Week_1_Dropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" misplaced="YES" id="8sK-4z-Vf1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="990"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="970"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" id="zPE-IG-zil">
-                                <frame key="frameInset"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" directionalLockEnabled="YES" id="zPE-IG-zil">
+                                <frame key="frameInset" maxY="20"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
                                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" misplaced="YES" image="settings" id="KPI-X2-PYU">
@@ -372,7 +372,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="YmV-wL-kXG"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="990"/>
+                    <size key="freeformSize" width="375" height="970"/>
                     <connections>
                         <outlet property="scrollView" destination="zPE-IG-zil" id="qAV-xk-JfA"/>
                     </connections>
@@ -417,7 +417,7 @@
                                 <frame key="frameInset" minX="299" minY="43" width="60" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="rUy-ai-fan" kind="modal" id="j15-pu-WF1"/>
+                                    <segue destination="rUy-ai-fan" kind="modal" id="7hc-hv-KaX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -559,9 +559,6 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UqW-7B-FJp">
                                 <frame key="frameInset" minX="27" minY="603" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <segue destination="u6K-Ib-bo6" kind="modal" id="gxG-LE-FZ2"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AUd-cI-gC4">
                                 <frame key="frameInset" minX="27" minY="550" width="332" height="58"/>
@@ -570,13 +567,21 @@
                                     <segue destination="cH1-na-MNj" kind="modal" id="IMf-cJ-MY7"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5Sw-44-ddx">
+                                <frame key="frameInset" minX="47" minY="603" width="300" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="dL3-1v-0lC" kind="modal" id="yL9-VN-8yZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="mmN-Cm-dH7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Bo-hj-8JC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5066.5" y="367.5"/>
+            <point key="canvasLocation" x="5146" y="368"/>
         </scene>
         <!--Dismiss ToS-->
         <scene sceneID="wUY-2b-S3e">
@@ -603,7 +608,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C8q-7o-jFO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5534.5" y="367.5"/>
+            <point key="canvasLocation" x="5384" y="-585"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="gMu-Be-d3u">
@@ -923,6 +928,48 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GCQ-zY-1V6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--View ToS-->
+        <scene sceneID="Sa0-z2-JeF">
+            <objects>
+                <viewController id="dL3-1v-0lC" customClass="ViewToS" customModule="Week_1_Dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QSA-IF-1ZZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" misplaced="YES" id="WyM-iB-H7g">
+                                <frame key="frameInset" minY="28" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Terms of Service" id="s9Q-Cz-w1p">
+                                        <barButtonItem key="rightBarButtonItem" title="Done" id="2AR-V6-jHT">
+                                            <connections>
+                                                <action selector="dismissToS2:" destination="dL3-1v-0lC" id="2Al-s8-DnI"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <view contentMode="scaleToFill" misplaced="YES" id="l3p-GB-i4b">
+                                <frame key="frameInset" width="375" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <webView contentMode="scaleToFill" misplaced="YES" id="1PZ-M4-5qp">
+                                <frame key="frameInset" minY="72" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="tosView" destination="1PZ-M4-5qp" id="hfW-09-Ddh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YA0-Jd-Kih" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5631.5" y="367.5"/>
         </scene>
     </scenes>
     <resources>
