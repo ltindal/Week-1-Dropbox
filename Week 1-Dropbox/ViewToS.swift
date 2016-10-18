@@ -17,9 +17,9 @@ class ViewToS: UIViewController {
         super.viewDidLoad()
         
         // Convert the url String to a NSURL object.
-        let requestURL = NSURL(string:url)
+        let requestURL = URL(string:url)
         // Place the URL in a URL Request.
-        let request = NSURLRequest(url: requestURL! as URL)
+        let request = URLRequest(url: requestURL! as URL)
         // Load Request into WebView.
         tosView.loadRequest(request as URLRequest)
 
